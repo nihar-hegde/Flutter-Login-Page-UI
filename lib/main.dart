@@ -115,6 +115,8 @@ class HomePage extends StatelessWidget {
 	                              hintText: "Password",
 	                              hintStyle: TextStyle(color: Colors.grey[400])
 	                            ),
+					 autofocus: false,
+					 obscureText: true,
 	                          ),
 	                        )
 	                      ],
